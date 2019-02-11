@@ -1,10 +1,10 @@
 ## Track Overview
 TBA
 
-### Task
+## Task
 TBA
 
-### Data
+## Data
 TBA
 
 #### Search Topics
@@ -13,17 +13,17 @@ TBA
 #### Collection (documents)
 TBA
 
-### Submission of Runs
+## Submission of Runs
 TBA
 
 #### Format
 TBA
 
-### Evaluation of Runs
+## Evaluation of Runs
 TBA
 
-### Schedule  
+## Schedule  
 TBA
 
-### Organizers
+## Organizers
 TBA
