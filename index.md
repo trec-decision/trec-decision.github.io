@@ -23,10 +23,30 @@ decision making with search engines, and
 methods to predict the decision making quality induced by search results.
 
 ## Task
-TBA
+The track is planned over multiple years, with data and resources created in one year flowing
+into the next year. We plan for the track to run for at least 3 years.
+
+#### Year 1 (2019)
+Participants devise search technologies that promote correct information over incorrect information, with the assumption that correct information can better lead people to make correct decisions.
+
+Note: this task is more than simply a new definition of what is relevant. There are 3 types of results: correct and relevant, incorrect, and non-relevant. It is important that search results avoid containing incorrect results, and
+ranking non-relevant results above incorrect is preferred.
+
+Evaluation measures will consider relevance beyond topicality, indlucuding correctness of information and crediablity. 
+
+Following the year 1 assessment, the organizers will recruit test subjects to perform a decision
+making task using a selection of the year 1 runs. That is, test subjects will be given a fixed result list (selected from submitted runs) and a decision task. We will collect user interaction data as well as the users' decisions.
+
+#### Year 2 (2020)
+Given a query, a document ranking (results list) and interaction data (collected during year 1),
+predict the decisions users will take at the end of the search process, along with their confidence when taking such decisions. This simulates an online evaluation process.
+
+#### Year 3 (2021)
+Given a query, a document ranking (results list), and assessments, predict the decision the user will take at the end of the search process (along with the confidence expressed by the user with respect to their decision). 
+This simulates an offline evaluation process.
+
 
 ## Data
-TBA
 
 #### Search Topics
 TBA
@@ -44,7 +64,15 @@ TBA
 TBA
 
 ## Schedule  
-TBA
+#### 2019
+* (TBA) Final guidelines available
+* (TBA) Availability of Topics/Collection
+* (TBA) Runs due
+* (TBA) Results returned
+* (TBA) Notebook paper due
+* (TBA) TREC Conference
+* (TBA) Final report due
+
 
 ## Organizers
 TBA
