@@ -75,4 +75,11 @@ TBA
 
 
 ## Organizers
+
+#### Christina Lioma, University of Copenhagen        
+#### Mark Smucker, University of Waterloo
+#### Guido Zuccon, University of Queensland
+
+
+## Contact
 TBA
