@@ -32,13 +32,15 @@ Participants devise search technologies that promote correct information over in
 Note: this task is more than simply a new definition of what is relevant. There are 3 types of results: correct and relevant, incorrect, and non-relevant. It is important that search results avoid containing incorrect results, and
 ranking non-relevant results above incorrect is preferred.
 
-Evaluation measures will consider relevance beyond topicality, indlucuding correctness of information and crediablity. 
+Evaluation measures will consider relevance beyond topicality, including correctness of information and crediablity. 
+
+Year 1 task summary: Given a data collection and a set of topics (portraied as questions, see topics for more information), your task is to return relevant and correct information that will help searchers make correct decisions. 
 
 Following the year 1 assessment, the organizers will recruit test subjects to perform a decision
-making task using a selection of the year 1 runs. That is, test subjects will be given a fixed result list (selected from submitted runs) and a decision task. We will collect user interaction data as well as the users' decisions.
+making task using a selection of the year 1 runs. That is, test subjects will be given a fixed result list (selected from the participating teams submitted runs) and a decision task. We will collect user interaction data as well as the users' decisions.
 
 #### Year 2 (2020)
-Given a query, a document ranking (results list) and interaction data (collected during year 1),
+Given a query, a document ranking (results list) and interaction data of real users (collected right after year 1),
 predict the decisions users will take at the end of the search process, along with their confidence when taking such decisions. This simulates an online evaluation process.
 
 #### Year 3 (2021)
@@ -47,16 +49,19 @@ This simulates an offline evaluation process.
 
 
 ## Data
+The Track plans to focus on topics within the consumer health search domain (people seeking
+health advice online) to form user stories (search topics). Consumer health search represents
+an ideal prototypical example of the consequential decisions that we want search engines to
+correctly support. 
+
 
 #### Search Topics
 TBA
 
-#### Collection (documents)
+#### Collection (documents set)
 TBA
 
 ## Submission of Runs
-TBA
-
 #### Format
 TBA
 
@@ -82,4 +87,4 @@ TBA
 
 
 ## Contact
-For more information, contact trec.decision@gmail.com 
+For more information, [email us](trec.decision@gmail.com) or join the [google groups](https://groups.google.com/forum/#!forum/trec-decision-track)
