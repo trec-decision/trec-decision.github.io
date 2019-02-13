@@ -82,4 +82,4 @@ TBA
 
 
 ## Contact
-TBA
+For more information, contact trec.decision@gmail.com 
