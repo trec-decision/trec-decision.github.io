@@ -83,10 +83,10 @@ TBA
 
 ## Organizers
 
-#### Christina Lioma, University of Copenhagen        
-#### Mark Smucker, University of Waterloo
-#### Guido Zuccon, University of Queensland
+#### [Christina Lioma, University of Copenhagen](https://di.ku.dk/Ansatte/?pure=en/persons/424829)
+#### [Mark Smucker, University of Waterloo](http://mansci.uwaterloo.ca/~msmucker/)
+#### [Guido Zuccon, University of Queensland](http://www.zuccon.net/)
 
 
 ## Contact
-For more information, [email us](trec.decision@gmail.com) or join the [google groups](https://groups.google.com/forum/#!forum/trec-decision-track)
+For more information or to ask questions, join the [google groups](https://groups.google.com/forum/#!forum/trec-decision-track)
