@@ -58,12 +58,28 @@ correctly support.
 
 
 #### Search Topics
-TBA
+Unlike previous tracks, the assessors will not be creating their own topic statements. Instead, the assessors will be provided the topic query and narrative. The topics will be provided as xml files using the following format:
 
+```
+<topics>
+<topic>
+<number>1</number>
+<query>cinnamon diabetes</query>
+<narrative>Diabetes is a disease in which the body cannot properly use insulin to regulate glucose (sugar) levels.  Cinnamon is a common spice.  There have been reports about cinnamon being able to control glucose levels in animals. Relevant documents will discuss cinnamon as a treatment for diabetes in humans.</narrative>
+</topic>
+<topic>
+...
+</topic>
+</topics>
+
+```
+
+The full list of topics will be released later. Please refer to the schedule for the specific date.
+ 
 
 #### Collection (documents set)
-TBA
-
+The collection used in TREC Decisions 2019 will be [ClueWeb12-B13](https://lemurproject.org/clueweb12/).
+Please refer to [https://lemurproject.org/clueweb12/](https://lemurproject.org/clueweb12/) for information on how to obtain the dataset.
 
 ## Submission of Runs
 #### Format
@@ -94,7 +110,6 @@ Example run is shown below:
 ```
 
 #### Number of Submission
-
 Each group is allowed up to 4 submissions.
 
 
@@ -108,7 +123,7 @@ NIST assessors will judge documents in three categories:
 
 
 ## Evaluation of Runs
-We anticipate runs to be evaluated using some of the evaluation measures suggested by Lioma et al. (ICTIR'17), as well as traditional relevancy evaluation measures.
+We anticipate runs to be evaluated using some or modified versions of the evaluation measures suggested by Lioma et al. (ICTIR'17), as well as traditional relevancy evaluation measures.
 More details will be provided later. 
 
 
