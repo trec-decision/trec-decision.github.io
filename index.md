@@ -67,7 +67,36 @@ TBA
 
 ## Submission of Runs
 #### Format
-TBA
+Submission format will follow the standard TREC run format. The submission format when submitting ranked results is as follows: 
+
+``qid Q0 docno rank score tag``
+
+where:
+
+* ``qid``:  the topic number.
+* ``Q0``: unused and should always be Q0.
+* ``docno``: the official document id number returned by your system for the topic qid.
+* ``rank``:  the rank the document is retrieved,
+* ``score``: the score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order. The score is important to handle tied scores. (`trec_eval` sorts documents the the scores values and not your ranks values).
+* ``tag``: a tag that uniquley identifies your group AND the method you used to produce the run. Each run should have a different tag. 
+
+The fields should be spectated with a whitespace. The width of the columns in the format is not important, but it is important to include all columns and have some amount of white space between the columns.
+
+Example run is shown below: 
+
+```
+1 Q0 clueweb12-1018wb-57-17875 1 14.8928003311 myGroupNameMyMethodName
+1 Q0 clueweb12-1311wb-18-06089 2 14.7590999603 myGroupNameMyMethodName
+1 Q0 clueweb12-1113wb-13-13513 3 14.5707998276 myGroupNameMyMethodName
+1 Q0 clueweb12-1200wb-47-01250 4 14.5642995834 myGroupNameMyMethodName
+1 Q0 clueweb12-0205wb-37-09270 5 14.3723001481 myGroupNameMyMethodName
+...
+```
+
+#### Number of Submission
+
+Each group is allowed up to 4 submissions.
+
 
 
 ## Assessing guidelines 
