@@ -1,4 +1,4 @@
-# WEBSITE UNDER DEVELOPMENT
+# TREC Decision Track
 
 ## Track Overview
 Search engine results underpin many consequential decision making tasks. Examples include
@@ -58,7 +58,7 @@ correctly support.
 
 
 #### Search Topics
-Unlike previous tracks, the assessors will not be creating their own topic statements. Instead, the assessors will be provided the topic query and narrative. The topics will be provided as xml files using the following format:
+Unlike previous tracks, the assessors will not be creating their own topic statements. Instead, the assessors will be provided the topic query and narrative. The topics will be provided as xml files using the following format (tentative):
 
 ```
 <topics>
@@ -130,13 +130,12 @@ More details will be provided later.
 ## Schedule  
 #### 2019
 * (TBA) Final guidelines available
-* (TBA) Availability of Topics/Collection
-* (TBA) Runs due
+* (May 22 - Tentative) Availability of Topics/Collection
+* (August 1, 2019) Runs due
 * (TBA) Results returned
 * (TBA) Notebook paper due
-* (TBA) TREC Conference
-* (TBA) Final report due
-
+* (Nov 13--15, 2019) TREC Conference
+* (Sometime Feb, 2020) Final report due.
 
 ## Organizers
 
