@@ -60,15 +60,28 @@ correctly support.
 #### Search Topics
 TBA
 
+
 #### Collection (documents set)
 TBA
+
 
 ## Submission of Runs
 #### Format
 TBA
 
+
+## Assessing guidelines 
+NIST assessors will judge documents in three categories:
+
+* **Relevancy:** whether the document is relevant to the topic.
+* **Treatment Efficacy:** whether the document contain correct information regarding the topic's treatment.  
+* **Credibility:** whether the document is considered credible by the assessor.  
+
+
 ## Evaluation of Runs
-TBA
+We anticipate runs to be evaluated using some of the evaluation measures suggested by Lioma et al. (ICTIR'17), as well as traditional relevancy evaluation measures.
+More details will be provided later. 
+
 
 ## Schedule  
 #### 2019
