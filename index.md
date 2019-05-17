@@ -110,9 +110,7 @@ Example run is shown below:
 ```
 
 #### Number of Submission
-Each group is allowed up to 4 submissions.
-
-
+Participating groups will be allowed to submit as many runs as they like, but need to ask permission before submitting more than 10 runs. Not all runs are likely to be used for pooling and groups will likely need to specify a preference ordering for pooling purposes.
 
 ## Assessing guidelines 
 NIST assessors will judge documents in three categories:
