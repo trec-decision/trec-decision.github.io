@@ -12,7 +12,7 @@ uncontrolled data collections, such as the web, where information can be unrelia
 misleading, too technical, and can lead to unfounded escalations (White&Horvitz, 2009).
 Information from search engine results can significantly influence decisions, and research
 shows that increasing the amount of incorrect information about a topic presented in a SERP
-can impel users to take incorrect decisions (Pogacar et al., 2017). As noted in the SWIRL III
+can impel users to take incorrect decisions (Pogacar et al, 2017). As noted in the SWIRL III
 report (Culpepper et al., 2018), decision making with search engines is poorly understood, and
 likewise, evaluation measures for these search tasks need to be developed and improved.
 
@@ -34,7 +34,7 @@ Participants devise search technologies that promote correct information over in
 Note: this task is more than simply a new definition of what is relevant. There are 3 types of results: correct and relevant, incorrect, and non-relevant. It is important that search results avoid containing incorrect results, and
 ranking non-relevant results above incorrect is preferred.  In place of notions of correctness, the credibility of the information source is useful and relevant and credible information is preferred.
 
-Evaluation measures will consider relevance beyond topicality, including correctness of information and credibility. 
+Evaluation measures will consider relevance beyond topicality, including correctness of information and crediablity. 
 
 Year 1 task summary: Given a data collection and a set of topics (portrayed as questions, see topics for more information), your task is to return relevant and credible information that will help searchers make correct decisions.   A dual goal is to return relevant and correct information. 
 
@@ -58,7 +58,7 @@ correctly support.
 
 
 #### Search Topics
-Unlike previous tracks, the assessors will not be creating their own topic statements. Instead, the assessors will be provided the topic query and narrative. The topics will be provided as XML files using the following format (tentative):
+Unlike previous tracks, the assessors will not be creating their own topic statements. Instead, the assessors will be provided the topic query and narrative. The topics will be provided as xml files using the following format (tentative):
 
 ```
 <topics>
@@ -94,7 +94,7 @@ where:
 * ``docno``: the official document id number returned by your system for the topic qid.
 * ``rank``:  the rank the document is retrieved,
 * ``score``: the score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order. The score is important to handle tied scores. (`trec_eval` sorts documents the the scores values and not your ranks values).
-* ``tag``: a tag that uniquely identifies your group AND the method you used to produce the run. Each run should have a different tag. 
+* ``tag``: a tag that uniquley identifies your group AND the method you used to produce the run. Each run should have a different tag. 
 
 The fields should be spectated with a whitespace. The width of the columns in the format is not important, but it is important to include all columns and have some amount of white space between the columns.
 
