@@ -32,11 +32,11 @@ into the next year. We plan for the track to run for at least 3 years.
 Participants devise search technologies that promote correct information over incorrect information, with the assumption that correct information can better lead people to make correct decisions.
 
 Note: this task is more than simply a new definition of what is relevant. There are 3 types of results: correct and relevant, incorrect, and non-relevant. It is important that search results avoid containing incorrect results, and
-ranking non-relevant results above incorrect is preferred.
+ranking non-relevant results above incorrect is preferred.  In place of notions of correctness, the credibility of the information source is useful and relevant and credible information is preferred.
 
 Evaluation measures will consider relevance beyond topicality, including correctness of information and crediablity. 
 
-Year 1 task summary: Given a data collection and a set of topics (portraied as questions, see topics for more information), your task is to return relevant and correct information that will help searchers make correct decisions. 
+Year 1 task summary: Given a data collection and a set of topics (portrayed as questions, see topics for more information), your task is to return relevant and credible information that will help searchers make correct decisions.   A dual goal is to return relevant and correct information. 
 
 Following the year 1 assessment, the organizers will recruit test subjects to perform a decision
 making task using a selection of the year 1 runs. That is, test subjects will be given a fixed result list (selected from the participating teams submitted runs) and a decision task. We will collect user interaction data as well as the users' decisions.
@@ -115,20 +115,28 @@ Participating groups will be allowed to submit as many runs as they like, but ne
 ## Assessing guidelines 
 NIST assessors will judge documents in three categories:
 
-* **Relevancy:** whether the document is relevant to the topic.
-* **Treatment Efficacy:** whether the document contain correct information regarding the topic's treatment.  
-* **Credibility:** whether the document is considered credible by the assessor.  
+* **Relevance:** whether the document is relevant to the topic.
+* **Credibility:** whether the document is considered credible by the assessor.
+* **Treatment Efficacy:** whether the document contains correct information regarding the topic's treatment.  
+
 
 
 ## Evaluation of Runs
-We anticipate runs to be evaluated using some or modified versions of the evaluation measures suggested by Lioma et al. (ICTIR'17), as well as traditional relevancy evaluation measures.
-More details will be provided later. 
-
+The primary evaluation measure will combine
+relevance and credibility and be either one of the measures proposed
+by Lioma et al. (ICTIR'17, https://doi.org/10.1145/3121050.3121072) or
+a modified version of one of those measures.  When we select the final
+measure, we will announce it.  We will also evaluate runs in terms of
+traditional relevance measures, e.g. nDCG and MAP, with a goal of comparing
+performance measures between the relevance only measures and the measures
+that combine relevance and credibility.  We may also evaluate runs in terms
+of a new measure that combine relevance and correctness, i.e. the information 
+in a document should be both relevant and correct.
 
 ## Schedule  
 #### 2019
 * (TBA) Final guidelines available
-* (May 22 - Tentative) Availability of Topics/Collection
+* (May 24 - Tentative) Availability of Topics/Collection
 * (August 1, 2019) Runs due
 * (TBA) Results returned
 * (TBA) Notebook paper due
