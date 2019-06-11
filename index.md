@@ -145,6 +145,7 @@ in a document should be both relevant and correct.
 * (Nov 13--15, 2019) TREC Conference
 * (Sometime Feb, 2020) Final report due.
 
+Announcements and discussions will be posted in the [google groups](https://groups.google.com/forum/#!forum/trec-decision-track). 
 ## Organizers
 
 #### [Christina Lioma, University of Copenhagen](https://di.ku.dk/Ansatte/?pure=en/persons/424829)
