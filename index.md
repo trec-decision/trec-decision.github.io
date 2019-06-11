@@ -74,7 +74,7 @@ Unlike previous tracks, the assessors will not be creating their own topic state
 
 ```
 
-To see the full list of topics refer to [NIST website](https://trec.nist.gov/act_part/tracks/decisions/topics.xml)
+To see the full list of topics please refer to [NIST website](https://trec.nist.gov/act_part/tracks/decisions/topics.xml)
  
 
 #### Collection (documents set)
