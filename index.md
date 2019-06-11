@@ -121,7 +121,7 @@ NIST assessors will judge documents in three categories:
 * **Credibility:** whether the document is considered credible by the assessor.
 * **Treatment Efficacy:** whether the document contains correct information regarding the topic's treatment.  
 
-
+More information on the assessing guidelines is available [here](https://github.com/trec-decision/trec-decision.github.io/raw/master/docs/AssessingGuidelines.pdf)
 
 ## Evaluation of Runs
 The primary evaluation measure will combine
@@ -137,9 +137,8 @@ in a document should be both relevant and correct.
 
 ## Schedule  
 #### 2019
-* (TBA) Final guidelines available
-* (June 11, 2019) Topics are released
-* (TBA) Availability of Topics/Collection
+* (June 11) Final assessing guidelines available [here](https://github.com/trec-decision/trec-decision.github.io/raw/master/docs/AssessingGuidelines.pdf)
+* (June 11, 2019) Topics are released [[NIST website](https://trec.nist.gov/act_part/tracks/decisions/topics.xml)]
 * (August 1, 2019) Runs due
 * (TBA) Results returned
 * (TBA) Notebook paper due
