@@ -64,8 +64,10 @@ Unlike previous tracks, the assessors will not be creating their own topic state
 <topics>
 <topic>
 <number>1</number>
-<query>cinnamon diabetes</query>
-<narrative>Diabetes is a disease in which the body cannot properly use insulin to regulate glucose (sugar) levels.  Cinnamon is a common spice.  There have been reports about cinnamon being able to control glucose levels in animals. Relevant documents will discuss cinnamon as a treatment for diabetes in humans.</narrative>
+<query>cranberries urinary tract infections</query>
+<cochranedoi>10.1002/14651858.CD001321.pub5</cochranedoi>
+<description>Can cranberries prevent urinary tract infections?</description>
+<narrative>Symptoms of a urinary tract infection (UTI) include burning while urinating and a persistent urge to urinate. Relevant documents should discuss the effectiveness of consuming cranberries or cranberry juice for prevention of UTIs.  This topic is specifically about prevention rather than treatment of an existing infection.</narrative>
 </topic>
 <topic>
 ...
