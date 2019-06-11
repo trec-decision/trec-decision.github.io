@@ -138,7 +138,8 @@ in a document should be both relevant and correct.
 ## Schedule  
 #### 2019
 * (TBA) Final guidelines available
-* (June 11, 2019) Availability of Topics/Collection
+* (June 11, 2019) Topics are released
+* (TBA) Availability of Topics/Collection
 * (August 1, 2019) Runs due
 * (TBA) Results returned
 * (TBA) Notebook paper due
