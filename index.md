@@ -41,14 +41,14 @@ Year 1 task summary: Given a data collection and a set of topics (portrayed as q
 Following the year 1 assessment, the organizers will recruit test subjects to perform a decision
 making task using a selection of the year 1 runs. That is, test subjects will be given a fixed result list (selected from the participating teams submitted runs) and a decision task. We will collect user interaction data as well as the users' decisions.
 
-#### Year 2 (2020)
+#### Years 2+ (2020 onward)
+In addition to a ranking task, the track will have evaluation tasks.
+
 Given a query, a document ranking (results list) and interaction data of real users (collected right after year 1),
 predict the decisions users will take at the end of the search process, along with their confidence when taking such decisions. This simulates an online evaluation process.
 
-#### Year 3 (2021)
 Given a query, a document ranking (results list), and assessments, predict the decision the user will take at the end of the search process (along with the confidence expressed by the user with respect to their decision). 
 This simulates an offline evaluation process.
-
 
 ## Data
 The Track plans to focus on topics within the consumer health search domain (people seeking
@@ -58,7 +58,7 @@ correctly support.
 
 
 #### Search Topics
-Unlike previous tracks, the assessors will not be creating their own topic statements. Instead, the assessors will be provided the topic query and narrative. The topics will be provided as XML files using the following format (tentative):
+Unlike previous tracks, the assessors will not be creating their own topic statements. Instead, the assessors will be provided the topic query and narrative. The topics will be provided as XML files using the following format:
 
 ```
 <topics>
@@ -84,6 +84,9 @@ The collection used in TREC Decisions 2019 will be [ClueWeb12-B13](https://lemur
 Please refer to [https://lemurproject.org/clueweb12/](https://lemurproject.org/clueweb12/) for information on how to obtain the dataset.
 
 ## Submission of Runs
+#### Queries
+The topics have a specified query to use.  This query field replaces the traditional title field.  Runs should be submitted using the query field as the query as given by a user to a search engine.  Runs not using the query field or using the description field may also be submitted but will need to be marked as "other" runs.
+
 #### Format
 Submission format will follow the standard TREC run format. The submission format when submitting ranked results is as follows: 
 
@@ -111,8 +114,10 @@ Example run is shown below:
 ...
 ```
 
-#### Number of Submission
+#### Number of Submissions and Types
 Participating groups will be allowed to submit as many runs as they like, but need to ask permission before submitting more than 10 runs. Not all runs are likely to be used for pooling and groups will likely need to specify a preference ordering for pooling purposes.
+
+Runs may be either automatic or manual runs.  An automatic run is made without any tuning or manual influence of this year's topics.  A manual run is anything that is not an automatic run.  Manual runs commonly have some human input based on the topics, e.g. hand crafted queries or relevance feedback.  Best practice for automatic runs is to avoid using the topics or even looking at them until after all decisions and code have been written to produce an automatic run.
 
 ## Assessing guidelines 
 NIST assessors will judge documents in three categories:
