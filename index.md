@@ -143,6 +143,7 @@ computes the standard nDCG.
 * Convex Aggregating Measure (CAM): considers each aspect separately and 
 computes either AP or nDCG with respect to the ranking obtained with single 
 aspects. Finally it computes the average AP or nDCG across the aspects.
+
 We will also evaluate runs in terms of traditional relevance measures, e.g. 
 nDCG and MAP, with a goal of comparing performance measures between the 
 relevance only measures and the measures that combine relevance, 
