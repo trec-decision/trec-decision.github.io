@@ -129,16 +129,24 @@ NIST assessors will judge documents in three categories:
 More information on the assessing guidelines is available [here](https://github.com/trec-decision/trec-decision.github.io/raw/master/docs/AssessingGuidelines.pdf)
 
 ## Evaluation of Runs
-The primary evaluation measure will combine
-relevance and credibility and be either one of the measures proposed
-by Lioma et al. (ICTIR'17, https://doi.org/10.1145/3121050.3121072) or
-a modified version of one of those measures.  When we select the final
-measure, we will announce it.  We will also evaluate runs in terms of
-traditional relevance measures, e.g. nDCG and MAP, with a goal of comparing
-performance measures between the relevance only measures and the measures
-that combine relevance and credibility.  We may also evaluate runs in terms
-of a new measure that combine relevance and correctness, i.e. the information 
-in a document should be both relevant and correct.
+The submitted runs will be evaluated with respect to the following measures 
+proposed by Lioma et al. (ICTIR'17, https://doi.org/10.1145/3121050.3121072):
+* Normalised Local Rank Error (NLRE): compares the rank position of documents 
+pairwise and checks for errors, where errors are defined as misplacements of 
+documents, i.e. a relevant or credible document placed after a not relevant 
+or not credible document. The measure is originally defined to deal with 
+relevance and credibility, but it has been extended to consider all the 
+three aspects: relevance, credibility and correctness.
+* Normalised Weighted Cumulative Score (nWCS): is based on 
+nDCG, it generates a single label out of the multiple aspects and 
+computes the standard nDCG.
+* Convex Aggregating Measure (CAM): considers each aspect separately and 
+computes either AP or nDCG with respect to the ranking obtained with single 
+aspects. Finally it computes the average AP or nDCG across the aspects.
+We will also evaluate runs in terms of traditional relevance measures, e.g. 
+nDCG and MAP, with a goal of comparing performance measures between the 
+relevance only measures and the measures that combine relevance, 
+credibility and correctness.
 
 ## Schedule  
 #### 2019
