@@ -114,6 +114,8 @@ Example run is shown below:
 ...
 ```
 
+For each topic, please return 1,000 ranked documents.
+
 #### Number of Submissions and Types
 Participating groups will be allowed to submit as many runs as they like, but need to ask permission before submitting more than 10 runs. Not all runs are likely to be used for pooling and groups will likely need to specify a preference ordering for pooling purposes.
 
