@@ -155,7 +155,7 @@ credibility and correctness.
 #### 2019
 * (~~June 11~~) Final assessing guidelines available [here](https://github.com/trec-decision/trec-decision.github.io/raw/master/docs/AssessingGuidelines.pdf)
 * (~~June 11, 2019~~) Topics are released [[NIST website](https://trec.nist.gov/act_part/tracks/decisions/topics.xml)]
-* (~~August 1, 2019~~ August 28, 2019) Runs due.
+* (~~August 1, 2019~~ ~~August 28, 2019~~) Runs due.
   * Before 7am Aug 28 Eastern Time Zone (Gaithersburg, MD, USA).
   * Please check [TREC](https://trec.nist.gov/) active participants page for the runs submission link.
 * (TBA) Results returned
